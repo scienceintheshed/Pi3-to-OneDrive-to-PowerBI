@@ -1,5 +1,5 @@
 # Pi3OneDrivePowerBI
-Storing data for a Raspberry Pi3 on OneDrive and Visualising that data in PowerBI
+## Storing data for a Raspberry Pi3 on OneDrive and Visualising that data in PowerBI
 
 Most applications that visualise their data in PowerBI do this through Azure Stream Analytics Jobs or Web Apps.  Whilst this is a perfectly suitable solution, it can also be quite expensive.  By way of example, a recent project that I completed measured the temperature and humidity of a laboratory, sent that data via a JSON string to an IoTHub, created a Stream Analytics job and finally visualised that data in PowerBI.  This cost around A$60 per month...quite expensive for a single, simple app.
 
