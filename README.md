@@ -3,7 +3,7 @@ Storing data for a Raspberry Pi3 on OneDrive and Visualising that data in PowerB
 
 Most applications that visualise their data in PowerBI do this through Azure Stream Analytics Jobs or Web Apps.  Whilst this is a perfectly suitable solution, it can also be quite expensive.  By way of example, a recent project that I completed measured the temperature and humidity of a laboratory, sent that data via a JSON string to an IoTHub, created a Stream Analytics job and finally visualised that data in PowerBI.  This cost around A$60 per month...quite expensive for a single, simple app.
 
-PowerBI is able to read data from a variety of sources, local files and OneDrive included.  You can use PowerBI to visualise the local data but it does not auto (or manual) refresh.  Pulling the data fromOneDrive or OneDrive for Business does allow for auto refresh, albeit once an hour, but does allow for manual refresh whenver you want.
+PowerBI is able to read data from a variety of sources, local files and OneDrive included.  You can use PowerBI to visualise the local data but it does not auto (or manual) refresh.  Pulling the data from OneDrive or OneDrive for Business does allow for auto refresh, albeit once an hour, but does allow for manual refresh whenever you want.
 
 Achieving this is quite simple and involves the following steps;
   1. Connect Raspbian to your OneDrive account and create a local OneDrive directory.
