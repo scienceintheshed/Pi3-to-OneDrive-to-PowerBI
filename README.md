@@ -15,3 +15,8 @@ I'm going to assume that you have the following;
   1. A functioning Raspberry Pi 3 with Raspbian installed.  
   2. You are able to connect remotely to the Raspberry Pi 3...I installed XRDP on the Raspberry Pi3 which allowed me to use the native Remote Desktop Connection facility in Windows.  
   3. That you have some form of file transfer system installed, I use FileZilla.
+
+So let's get started...
+
+1. Connect Raspbian to your OneDrive account and create a local OneDrive directory.
+   There is a very good explaination for this step at http://www.avoiderrors.net/how-to-sync-microsoft-onedrive-in-linux so I wont duplicate this step her except to say that in step 2 when it askes if you want to change the default directory, type Y and then accept the default directory location.
