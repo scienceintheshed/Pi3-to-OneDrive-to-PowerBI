@@ -19,4 +19,5 @@ I'm going to assume that you have the following;
 So let's get started...
 
 1. Connect Raspbian to your OneDrive account and create a local OneDrive directory.
+   
    There is a very good explaination for this step at http://www.avoiderrors.net/how-to-sync-microsoft-onedrive-in-linux so I wont duplicate this step her except to say that in step 2 when it askes if you want to change the default directory, type Y and then accept the default directory location.
